@@ -1,3 +1,4 @@
 def reverse_each_word(string)
-  string.collect.reverse_each_word
+  string.each.collect.reverse_each_word(string)
 end
+reverse_each_word
